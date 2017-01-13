@@ -28,10 +28,6 @@
   text-decoration: none;
 }
 
-.jumbotron {
-  display: none;
-}
-
 #cssresult, #phpresult, #rubyresult, #javaresult, #cnetresult {
   display: none;
 }
