@@ -15,13 +15,18 @@ $(document).ready(function() {
     $(".cnethidden").toggle();
   });
 
-  $("form#survey").submit(function() {
+  $("form#survey").submit(function(event) {
     event.preventDefault();
-    var name = $("input#name").val();
-    var age = $("input#age").val();
+    var nameInput = $("input#name").val();
+    var ageInput = $("input#age").val();
+    var designbuild = $("input.radio[name=design-build]:checked").val();
+    var interactive = $("input.radio[name=interactive]:checked").val();
+    var schoolsubject = $("#school-subject").val();
+    var additionInput = $("input#addition").val();
+    var trak = $("#track").val();
 
     $(".name").text(nameInput);
-    $(".age").text(nameInput);
+    $(".age").text(ageInput);
 
     $(".jumbotron").show();
   });
