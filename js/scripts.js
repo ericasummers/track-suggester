@@ -19,15 +19,25 @@ $(document).ready(function() {
     event.preventDefault();
     var nameInput = $("input#name").val();
     var ageInput = $("input#age").val();
-    var designbuild = $("input.radio[name=design-build]:checked").val();
-    var interactive = $("input.radio[name=interactive]:checked").val();
+    var designbuild = $("input:radio[name=designbuild]:checked").val();
+    var interactive = $("input:radio[name=interactive]:checked").val();
     var schoolsubject = $("#school-subject").val();
     var additionInput = $("input#addition").val();
-    var trak = $("#track").val();
+    var track = $("#track").val();
 
     $(".name").text(nameInput);
     $(".age").text(ageInput);
 
-    $(".jumbotron").show();
+    if (designbuild === "design") {
+      $('#cssresult').show();
+    } else if (designbuild === "build"){
+      $('#cssresult').hide();
+    }
+    if (interactive === "yes") {
+      $('#rubyresult').show();
+    } else if (interactive === "no") {
+      $('#phpresult').show();
+    }
+
   });
 });
