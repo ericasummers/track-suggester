@@ -1,33 +1,27 @@
-.panel {
-  width: 60%;
+.container {
+
 }
 
 .panel-heading {
   text-align: center;
 }
 
-ol.horizontal {
-  list-style-type: decimal;
-}
-
-.horizontal li {
-  display: inline;
+.col-md-4 {
   text-align: center;
-  padding: 16px;
-  float: left;
 }
 
-li:hover {
+.col-md-4:hover {
   color: darkred;
 }
 
-#survey {
+.well {
   width: 80%;
-  padding: 10px;
-  background-color: lightgray;
-  border: 1px solid gray;
 }
 
 .form-control {
-  width: 70%;
+  width: 80%;
+}
+
+.rubyhidden, .phphidden, .javahidden, .designhidden, .cnethidden {
+  display: none;
 }
