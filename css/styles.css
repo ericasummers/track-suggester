@@ -11,7 +11,7 @@
 }
 
 .col-md-4:hover {
-  color: darkred;
+  color: green;
 }
 
 .well {
@@ -23,5 +23,11 @@
 }
 
 .rubyhidden, .phphidden, .javahidden, .designhidden, .cnethidden {
+  display: none;
+  color: black;
+  text-decoration: none;
+}
+
+.jumbotron {
   display: none;
 }

@@ -15,7 +15,14 @@ $(document).ready(function() {
     $(".cnethidden").toggle();
   });
 
-  $("form#survey").submit(function(event) {
+  $("form#survey").submit(function() {
     event.preventDefault();
+    var name = $("input#name").val();
+    var age = $("input#age").val();
+
+    $(".name").text(nameInput);
+    $(".age").text(nameInput);
+
+    $(".jumbotron").show();
   });
 });
