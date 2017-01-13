@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Epicodus track should I take?</h1>
+
+      <p>There are many <strong>programming languages</strong> that have different advantages over others depending on what you want to do with them. With so many options, it can be hard to figure out which one to choose. Epicodus offers five different main tracks:</p>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h2 class="panel-title">Epicodus Tracks</h2>
+        </div>
+        <div class="panel-body">
+          <ol class="horizontal">
+            <li>Ruby/Rails</li>
+            <li>PHP/Drupal</li>
+            <li>Java/Android</li>
+            <li>CSS/Design</li>
+            <li>C#/.NET</li>
+          </ol>
+        </div>
+      </div>
+
+      <p><em>For help figuring out which one might be right for you, please take the following survey. The result at the bottom will show a suggestion based on your responses of which track might best suit you.</em></p>
+
+      <h2>Survey: Which Track Should I Take?</h2>
+
+      <form id="survey">
+        <p>Fill out the responses to the best of your ability with what most appeals to you:</p>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input name="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input name="age" type="text" class="form-control">
+        </div>
+        <p>1. Do you prefer to style or build?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="design-build" value="design">
+            I prefer to design the look/style of websites and am interested in front-end developing.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="design-build" value="build">
+            I prefer to learn about back-end developing and how the webpage works.
+          </label>
+        </div>
+        <br>
+        <p>2. Do you like working with interactive content-such as taking in user information and creating accounts?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interactive" value="yes">
+            Yes, I prefer something interactive.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interactive" value="no">
+            No, I prefer to build lots of content.
+          </label>
+        </div>
+
+        <p>3. What was your favorite subject in school?</p>
+        <select id="school-subject">
+          <option value="math">Math</option>
+          <option value="art">Art</option>
+          <option value="english">English</option>
+          <option value="biochem">Biology/Chemistry</option>
+          <option value="history">History/Geography</option>
+          <option value="other">Other</option>
+        </select>
+
+        <br><br>
+        <div class="form-group">
+          <label for="addition">4. What is: ((6 * 4)/2) + 18?</label>
+          <input name="addition" type="text" class="form-control">
+        </div>
+
+        <p>5. Which track do <strong>you</strong> think you should take?</p>
+        <select id="track">
+          <option value="C#">C#/.NET</option>
+          <option value="PHP">PHP/Drupal</option>
+          <option value="Java">Java/Android</option>
+          <option value="css-design">CSS/Design</option>
+          <option value="ruby-rails">Ruby/Rails</option>
+          <option value="dont-know">Don't know, that's my question!</option>
+        </select>
+        <br><br>
+        <button type="submit" class="btn">Find out my track!</button>
+      </form>
+      <br><br>
+
+
+
+
+
+    </div>
+  </body>
+</html>
