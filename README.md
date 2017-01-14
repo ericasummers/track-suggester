@@ -17,5 +17,5 @@
 ##Support and contact details
 ####_If there are any issues, please contact me at ericaw21@gmail.com. There are no known bugs so far but if you see any let me know!_
 
-##Licence
+##License
 ####Copyright (c) 2017 Erica Wright All Rights Reserved.
