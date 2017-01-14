@@ -1,5 +1,21 @@
-.container {
+.leftbar {
+  width: 250px;
+  float: left;
+  background-color: #F2F5F2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
 
+.leftbar .panel {
+  width: 90%;
+  margin-left: 10px;
+  background-color: #F1FDF1;
+}
+
+.container {
+  margin-left: 250px;
 }
 
 .panel-heading {
@@ -11,7 +27,15 @@
 }
 
 .col-md-4:hover {
+  color: blue;
+}
+
+.panel-body li:hover {
   color: green;
+}
+
+h3 {
+  text-align: center;
 }
 
 .well {
