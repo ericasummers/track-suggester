@@ -28,6 +28,15 @@ $(document).ready(function() {
     $(".name").text(nameInput);
     $(".age").text(ageInput);
 
+    if (nameInput) {
+    } else {
+      alert("Please enter your name.");
+    }
+    if (ageInput) {
+    } else {
+      alert("Please enter your age.");
+    }
+
     if (designbuild === "design") {
       $('#cssresult').show();
       $('#phpresult', '#javaresult', '#rubyresult', '#cnetresult').hide();
