@@ -15,7 +15,7 @@
 ####* jQuery
 
 ##Support and contact details
-####_If there are any issues, please contact me at ericaw21@gmail.com. There are no known bugs so far but if you see any let me know!
+####_If there are any issues, please contact me at ericaw21@gmail.com. There are no known bugs so far but if you see any let me know!_
 
 ##Licence
 ####Copyright (c) 2017 Erica Wright All Rights Reserved.
