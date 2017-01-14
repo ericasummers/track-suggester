@@ -67,6 +67,9 @@ $(document).ready(function() {
     } else {
       $('#javaresult').hide();
     }
+  });
 
+  $("#jumboresult").click(function() {
+    $("#allresults").toggle();
   });
 });
